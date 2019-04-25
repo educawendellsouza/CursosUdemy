@@ -11,7 +11,7 @@ namespace ProgramaDoTriangulo
     {
         static void Main(string[] args)
         {
-            #region Orientação a objetos | Exercicio 5 - Triangulo.
+            #region Iniciando Orientação a objetos | Exercicio - Triangulo.
             Triangulo x, y;
 
             x = new Triangulo();
@@ -34,13 +34,10 @@ namespace ProgramaDoTriangulo
             y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Medida do Lado C: ");
             y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
-            double p = (x.A + x.B + x.C) / 2.0;
-            double areaX = Math.Sqrt(p * (p - x.A) * (p - x.B) * (p - x.C));
-
-            p = (y.A + y.B + y.C) / 2.0;
-            double areaY = Math.Sqrt(p * (p - y.A) * (p - y.B) * (p - y.C));
-
+                        
+            double areaX = x.Area();
+            double areaY = y.Area();
+            
             Console.Clear();
 
             Console.WriteLine($"A Area do triangulo X é de {areaX.ToString("F4", CultureInfo.InvariantCulture)}cm².");
