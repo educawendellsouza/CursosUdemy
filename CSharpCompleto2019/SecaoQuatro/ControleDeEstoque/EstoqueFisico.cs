@@ -11,7 +11,7 @@ namespace ControleDeEstoque
     class EstoqueFisico
     {
         public List<Produto> Estoque { get; set; }
-        private string caminhoJSON = "c:\\Users\\Wendell S\\source\repos\\educawendellsouza\\CursosUdemy\\CSharpCompleto2019\\SecaoQuatro\\ControleDeEstoque";
+        private string caminhoJSON = "c:\\Users\\Wendell S\\source\\repos\\educawendellsouza\\CursosUdemy\\CSharpCompleto2019\\SecaoQuatro\\ControleDeEstoque";
 
         public void Salvar()
         {            
@@ -20,7 +20,14 @@ namespace ControleDeEstoque
 
         public void Carregar()
         {
-            Estoque = new JavaScriptSerializer().Deserialize<List<Produto>>(System.IO.File.ReadAllText(caminhoJSON));
+            try
+            {
+                Estoque = new JavaScriptSerializer().Deserialize<List<Produto>>(System.IO.File.ReadAllText(caminhoJSON));
+            }
+            catch (Exception)
+            {
+                Estoque = new List<Produto>();
+            }
         }
     }
 }
