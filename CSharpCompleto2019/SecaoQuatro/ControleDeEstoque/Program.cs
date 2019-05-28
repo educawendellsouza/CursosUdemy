@@ -23,6 +23,27 @@ namespace ControleDeEstoque
             Console.Clear();
 
             Console.WriteLine($"Dados do produto: " + p);
+
+            Console.Clear();
+
+            Console.Write("Digite o número de produtos a ser adicionado ao estoque: ");
+            int quantidadeAdicionar = int.Parse(Console.ReadLine());
+            p.AdicionarProdutos(quantidadeAdicionar);
+
+            Console.Clear();
+
+            Console.WriteLine($"Dados do produto: " + p);
+
+            Console.Clear();
+
+            Console.Write("Digite o número de produtos a ser removida ao estoque: ");
+            int quantidadeRemover = int.Parse(Console.ReadLine());
+            p.RemoverProdutos(quantidadeRemover);
+
+            Console.Clear();
+
+            Console.WriteLine($"Dados do produto: " + p);
+
             Console.ReadKey();
         }
     }
