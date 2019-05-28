@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
 
 namespace ControleDeEstoque
 {
@@ -18,12 +15,15 @@ namespace ControleDeEstoque
             p.Nome = Console.ReadLine();
             Console.WriteLine();
             Console.Write("Preço: ");
-            p.Preco = int.Parse(Console.ReadLine());
+            p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.WriteLine();
             Console.Write("Quantidade em Estoque: ");
-            p.QuantidadeEmEstoque = int.Parse(Console.ReadLine());
+            p.Quantidade = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Dados do produto: ");
+            Console.Clear();
+
+            Console.WriteLine($"Dados do produto: " + p);
+            Console.ReadKey();
         }
     }
 }
