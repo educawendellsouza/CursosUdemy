@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramaDoTriangulo", "ProgramaDoTriangulo\ProgramaDoTriangulo.csproj", "{A3C01BC8-BD18-437B-AA5B-00C673731A2C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeirosExercicios", "PrimeirosExercicios\PrimeirosExercicios.csproj", "{858FA0D2-C9C1-4EF7-8A60-DEE7584342F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleDeEstoque", "ControleDeEstoque\ControleDeEstoque.csproj", "{537AD3BD-3036-49AC-A256-D9854C76CE0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercício2", "Exercício2\Exercício2.csproj", "{2A019479-4A91-4F13-9D8A-0D323C2BDC88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{537AD3BD-3036-49AC-A256-D9854C76CE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{537AD3BD-3036-49AC-A256-D9854C76CE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{537AD3BD-3036-49AC-A256-D9854C76CE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A019479-4A91-4F13-9D8A-0D323C2BDC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A019479-4A91-4F13-9D8A-0D323C2BDC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A019479-4A91-4F13-9D8A-0D323C2BDC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A019479-4A91-4F13-9D8A-0D323C2BDC88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
