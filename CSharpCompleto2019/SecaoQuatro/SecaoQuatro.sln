@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeirosExercicios", "Prim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleDeEstoque", "ControleDeEstoque\ControleDeEstoque.csproj", "{537AD3BD-3036-49AC-A256-D9854C76CE0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercício2", "Exercício2\Exercício2.csproj", "{2A019479-4A91-4F13-9D8A-0D323C2BDC88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercício2", "Exercício2\Exercício2.csproj", "{2A019479-4A91-4F13-9D8A-0D323C2BDC88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trigonometria", "Trigonometria\Trigonometria.csproj", "{C22EE450-FCD2-410A-B79D-96824D7B6193}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2A019479-4A91-4F13-9D8A-0D323C2BDC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A019479-4A91-4F13-9D8A-0D323C2BDC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A019479-4A91-4F13-9D8A-0D323C2BDC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22EE450-FCD2-410A-B79D-96824D7B6193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22EE450-FCD2-410A-B79D-96824D7B6193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22EE450-FCD2-410A-B79D-96824D7B6193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22EE450-FCD2-410A-B79D-96824D7B6193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
