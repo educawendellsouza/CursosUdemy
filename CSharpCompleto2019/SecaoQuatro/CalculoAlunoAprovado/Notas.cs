@@ -58,41 +58,7 @@ namespace CalculoAlunoAprovado
                 Notas.TerceiroTrimestre = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
                 Console.Clear();
-            }
-
-            /*
-
-            if (Notas.PrimeiroTrimestre <= 30 && Notas.SegundoTrimestre <= 35 && Notas.TerceiroTrimestre <= 35)
-            {
-                Notas.Nota();
-            }
-            else if (Notas.PrimeiroTrimestre > 30 && Notas.SegundoTrimestre <= 35 && Notas.TerceiroTrimestre <= 35)
-            {
-                Console.WriteLine("Nota do Primeiro Trismestre invalida.");
-                Console.WriteLine("");
-                Console.WriteLine("Digite a nota do Primeiro Trimestre, novamente.");
-                Console.Write("Nota :");
-                Notas.PrimeiroTrimestre = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            }
-            else if (Notas.PrimeiroTrimestre <= 30 && Notas.SegundoTrimestre > 35 && Notas.TerceiroTrimestre <= 35)
-            {
-                Console.WriteLine("Nota do Segundo Trismestre invalida.");
-                Console.WriteLine("");
-                Console.WriteLine("Digite a nota do Segundo Trimestre, novamente.");
-                Console.Write("Nota :");
-                Notas.SegundoTrimestre = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            }
-            else if (Notas.PrimeiroTrimestre <= 30 && Notas.SegundoTrimestre <= 35 && Notas.TerceiroTrimestre > 35)
-            {
-                Console.WriteLine("Nota do Terceiro Trismestre invalida.");
-                Console.WriteLine("");
-                Console.WriteLine("Digite a nota do TerceiroTrimestre, novamente.");
-                Console.Write("Nota :");
-                Notas.TerceiroTrimestre = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            }
-
-            */
-
+            }            
         }
 
 
